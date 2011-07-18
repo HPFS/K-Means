@@ -22,6 +22,7 @@
 		852168E713D4BDFB0078D528 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 852168E513D4BDFB0078D528 /* InfoPlist.strings */; };
 		852168EA13D4BDFB0078D528 /* KMeansiPadTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 852168E913D4BDFB0078D528 /* KMeansiPadTests.h */; };
 		852168EC13D4BDFC0078D528 /* KMeansiPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 852168EB13D4BDFC0078D528 /* KMeansiPadTests.m */; };
+		852168FF13D4BF480078D528 /* LXSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 852168FE13D4BF480078D528 /* LXSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		852168E813D4BDFB0078D528 /* KMeansiPadTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KMeansiPadTests-Prefix.pch"; sourceTree = "<group>"; };
 		852168E913D4BDFB0078D528 /* KMeansiPadTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMeansiPadTests.h; sourceTree = "<group>"; };
 		852168EB13D4BDFC0078D528 /* KMeansiPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMeansiPadTests.m; sourceTree = "<group>"; };
+		852168FD13D4BF480078D528 /* LXSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXSocket.h; sourceTree = "<group>"; };
+		852168FE13D4BF480078D528 /* LXSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 		852168C213D4BDF90078D528 /* KMeansiPad */ = {
 			isa = PBXGroup;
 			children = (
+				852168FD13D4BF480078D528 /* LXSocket.h */,
+				852168FE13D4BF480078D528 /* LXSocket.m */,
 				852168CB13D4BDF90078D528 /* KMeansiPadAppDelegate.h */,
 				852168CC13D4BDF90078D528 /* KMeansiPadAppDelegate.m */,
 				852168CE13D4BDF90078D528 /* MainWindow.xib */,
@@ -263,6 +268,7 @@
 				852168CA13D4BDF90078D528 /* main.m in Sources */,
 				852168CD13D4BDF90078D528 /* KMeansiPadAppDelegate.m in Sources */,
 				852168D313D4BDFA0078D528 /* KMeansiPadViewController.m in Sources */,
+				852168FF13D4BF480078D528 /* LXSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
