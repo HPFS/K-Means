@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		852168BD13D4BDF90078D528 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 852168BC13D4BDF90078D528 /* UIKit.framework */; };
+		852168BF13D4BDF90078D528 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 852168BE13D4BDF90078D528 /* Foundation.framework */; };
+		852168C113D4BDF90078D528 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 852168C013D4BDF90078D528 /* CoreGraphics.framework */; };
+		852168C713D4BDF90078D528 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 852168C513D4BDF90078D528 /* InfoPlist.strings */; };
+		852168CA13D4BDF90078D528 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 852168C913D4BDF90078D528 /* main.m */; };
+		852168CD13D4BDF90078D528 /* KMeansiPadAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 852168CC13D4BDF90078D528 /* KMeansiPadAppDelegate.m */; };
+		852168D013D4BDF90078D528 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 852168CE13D4BDF90078D528 /* MainWindow.xib */; };
+		852168D313D4BDFA0078D528 /* KMeansiPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 852168D213D4BDFA0078D528 /* KMeansiPadViewController.m */; };
+		852168D613D4BDFA0078D528 /* KMeansiPadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 852168D413D4BDFA0078D528 /* KMeansiPadViewController.xib */; };
+		852168DD13D4BDFA0078D528 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 852168BC13D4BDF90078D528 /* UIKit.framework */; };
+		852168DE13D4BDFA0078D528 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 852168BE13D4BDF90078D528 /* Foundation.framework */; };
+		852168DF13D4BDFB0078D528 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 852168C013D4BDF90078D528 /* CoreGraphics.framework */; };
+		852168E713D4BDFB0078D528 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 852168E513D4BDFB0078D528 /* InfoPlist.strings */; };
+		852168EA13D4BDFB0078D528 /* KMeansiPadTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 852168E913D4BDFB0078D528 /* KMeansiPadTests.h */; };
+		852168EC13D4BDFC0078D528 /* KMeansiPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 852168EB13D4BDFC0078D528 /* KMeansiPadTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		852168E013D4BDFB0078D528 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 852168AF13D4BDF90078D528 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 852168B713D4BDF90078D528;
+			remoteInfo = KMeansiPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		852168B813D4BDF90078D528 /* KMeansiPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMeansiPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		852168BC13D4BDF90078D528 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		852168BE13D4BDF90078D528 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		852168C013D4BDF90078D528 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		852168C413D4BDF90078D528 /* KMeansiPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KMeansiPad-Info.plist"; sourceTree = "<group>"; };
+		852168C613D4BDF90078D528 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		852168C813D4BDF90078D528 /* KMeansiPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KMeansiPad-Prefix.pch"; sourceTree = "<group>"; };
+		852168C913D4BDF90078D528 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		852168CB13D4BDF90078D528 /* KMeansiPadAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMeansiPadAppDelegate.h; sourceTree = "<group>"; };
+		852168CC13D4BDF90078D528 /* KMeansiPadAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMeansiPadAppDelegate.m; sourceTree = "<group>"; };
+		852168CF13D4BDF90078D528 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		852168D113D4BDF90078D528 /* KMeansiPadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMeansiPadViewController.h; sourceTree = "<group>"; };
+		852168D213D4BDFA0078D528 /* KMeansiPadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMeansiPadViewController.m; sourceTree = "<group>"; };
+		852168D513D4BDFA0078D528 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/KMeansiPadViewController.xib; sourceTree = "<group>"; };
+		852168DC13D4BDFA0078D528 /* KMeansiPadTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMeansiPadTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		852168E413D4BDFB0078D528 /* KMeansiPadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KMeansiPadTests-Info.plist"; sourceTree = "<group>"; };
+		852168E613D4BDFB0078D528 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		852168E813D4BDFB0078D528 /* KMeansiPadTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KMeansiPadTests-Prefix.pch"; sourceTree = "<group>"; };
+		852168E913D4BDFB0078D528 /* KMeansiPadTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMeansiPadTests.h; sourceTree = "<group>"; };
+		852168EB13D4BDFC0078D528 /* KMeansiPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMeansiPadTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		852168B513D4BDF90078D528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852168BD13D4BDF90078D528 /* UIKit.framework in Frameworks */,
+				852168BF13D4BDF90078D528 /* Foundation.framework in Frameworks */,
+				852168C113D4BDF90078D528 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852168D813D4BDFA0078D528 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852168DD13D4BDFA0078D528 /* UIKit.framework in Frameworks */,
+				852168DE13D4BDFA0078D528 /* Foundation.framework in Frameworks */,
+				852168DF13D4BDFB0078D528 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		852168AD13D4BDF90078D528 = {
+			isa = PBXGroup;
+			children = (
+				852168C213D4BDF90078D528 /* KMeansiPad */,
+				852168E213D4BDFB0078D528 /* KMeansiPadTests */,
+				852168BB13D4BDF90078D528 /* Frameworks */,
+				852168B913D4BDF90078D528 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		852168B913D4BDF90078D528 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				852168B813D4BDF90078D528 /* KMeansiPad.app */,
+				852168DC13D4BDFA0078D528 /* KMeansiPadTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		852168BB13D4BDF90078D528 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				852168BC13D4BDF90078D528 /* UIKit.framework */,
+				852168BE13D4BDF90078D528 /* Foundation.framework */,
+				852168C013D4BDF90078D528 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		852168C213D4BDF90078D528 /* KMeansiPad */ = {
+			isa = PBXGroup;
+			children = (
+				852168CB13D4BDF90078D528 /* KMeansiPadAppDelegate.h */,
+				852168CC13D4BDF90078D528 /* KMeansiPadAppDelegate.m */,
+				852168CE13D4BDF90078D528 /* MainWindow.xib */,
+				852168D113D4BDF90078D528 /* KMeansiPadViewController.h */,
+				852168D213D4BDFA0078D528 /* KMeansiPadViewController.m */,
+				852168D413D4BDFA0078D528 /* KMeansiPadViewController.xib */,
+				852168C313D4BDF90078D528 /* Supporting Files */,
+			);
+			path = KMeansiPad;
+			sourceTree = "<group>";
+		};
+		852168C313D4BDF90078D528 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				852168C413D4BDF90078D528 /* KMeansiPad-Info.plist */,
+				852168C513D4BDF90078D528 /* InfoPlist.strings */,
+				852168C813D4BDF90078D528 /* KMeansiPad-Prefix.pch */,
+				852168C913D4BDF90078D528 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		852168E213D4BDFB0078D528 /* KMeansiPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				852168E913D4BDFB0078D528 /* KMeansiPadTests.h */,
+				852168EB13D4BDFC0078D528 /* KMeansiPadTests.m */,
+				852168E313D4BDFB0078D528 /* Supporting Files */,
+			);
+			path = KMeansiPadTests;
+			sourceTree = "<group>";
+		};
+		852168E313D4BDFB0078D528 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				852168E413D4BDFB0078D528 /* KMeansiPadTests-Info.plist */,
+				852168E513D4BDFB0078D528 /* InfoPlist.strings */,
+				852168E813D4BDFB0078D528 /* KMeansiPadTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		852168B713D4BDF90078D528 /* KMeansiPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 852168EF13D4BDFC0078D528 /* Build configuration list for PBXNativeTarget "KMeansiPad" */;
+			buildPhases = (
+				852168B413D4BDF90078D528 /* Sources */,
+				852168B513D4BDF90078D528 /* Frameworks */,
+				852168B613D4BDF90078D528 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMeansiPad;
+			productName = KMeansiPad;
+			productReference = 852168B813D4BDF90078D528 /* KMeansiPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		852168DB13D4BDFA0078D528 /* KMeansiPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 852168F213D4BDFC0078D528 /* Build configuration list for PBXNativeTarget "KMeansiPadTests" */;
+			buildPhases = (
+				852168D713D4BDFA0078D528 /* Sources */,
+				852168D813D4BDFA0078D528 /* Frameworks */,
+				852168D913D4BDFA0078D528 /* Resources */,
+				852168DA13D4BDFA0078D528 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				852168E113D4BDFB0078D528 /* PBXTargetDependency */,
+			);
+			name = KMeansiPadTests;
+			productName = KMeansiPadTests;
+			productReference = 852168DC13D4BDFA0078D528 /* KMeansiPadTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		852168AF13D4BDF90078D528 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 852168B213D4BDF90078D528 /* Build configuration list for PBXProject "KMeansiPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 852168AD13D4BDF90078D528;
+			productRefGroup = 852168B913D4BDF90078D528 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				852168B713D4BDF90078D528 /* KMeansiPad */,
+				852168DB13D4BDFA0078D528 /* KMeansiPadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		852168B613D4BDF90078D528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852168C713D4BDF90078D528 /* InfoPlist.strings in Resources */,
+				852168D013D4BDF90078D528 /* MainWindow.xib in Resources */,
+				852168D613D4BDFA0078D528 /* KMeansiPadViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852168D913D4BDFA0078D528 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852168E713D4BDFB0078D528 /* InfoPlist.strings in Resources */,
+				852168EA13D4BDFB0078D528 /* KMeansiPadTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		852168DA13D4BDFA0078D528 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		852168B413D4BDF90078D528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852168CA13D4BDF90078D528 /* main.m in Sources */,
+				852168CD13D4BDF90078D528 /* KMeansiPadAppDelegate.m in Sources */,
+				852168D313D4BDFA0078D528 /* KMeansiPadViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		852168D713D4BDFA0078D528 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852168EC13D4BDFC0078D528 /* KMeansiPadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		852168E113D4BDFB0078D528 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 852168B713D4BDF90078D528 /* KMeansiPad */;
+			targetProxy = 852168E013D4BDFB0078D528 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		852168C513D4BDF90078D528 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				852168C613D4BDF90078D528 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		852168CE13D4BDF90078D528 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				852168CF13D4BDF90078D528 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		852168D413D4BDFA0078D528 /* KMeansiPadViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				852168D513D4BDFA0078D528 /* en */,
+			);
+			name = KMeansiPadViewController.xib;
+			sourceTree = "<group>";
+		};
+		852168E513D4BDFB0078D528 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				852168E613D4BDFB0078D528 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		852168ED13D4BDFC0078D528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		852168EE13D4BDFC0078D528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		852168F013D4BDFC0078D528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KMeansiPad/KMeansiPad-Prefix.pch";
+				INFOPLIST_FILE = "KMeansiPad/KMeansiPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		852168F113D4BDFC0078D528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KMeansiPad/KMeansiPad-Prefix.pch";
+				INFOPLIST_FILE = "KMeansiPad/KMeansiPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		852168F313D4BDFC0078D528 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KMeansiPad.app/KMeansiPad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KMeansiPadTests/KMeansiPadTests-Prefix.pch";
+				INFOPLIST_FILE = "KMeansiPadTests/KMeansiPadTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		852168F413D4BDFC0078D528 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KMeansiPad.app/KMeansiPad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KMeansiPadTests/KMeansiPadTests-Prefix.pch";
+				INFOPLIST_FILE = "KMeansiPadTests/KMeansiPadTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		852168B213D4BDF90078D528 /* Build configuration list for PBXProject "KMeansiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				852168ED13D4BDFC0078D528 /* Debug */,
+				852168EE13D4BDFC0078D528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		852168EF13D4BDFC0078D528 /* Build configuration list for PBXNativeTarget "KMeansiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				852168F013D4BDFC0078D528 /* Debug */,
+				852168F113D4BDFC0078D528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		852168F213D4BDFC0078D528 /* Build configuration list for PBXNativeTarget "KMeansiPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				852168F313D4BDFC0078D528 /* Debug */,
+				852168F413D4BDFC0078D528 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 852168AF13D4BDF90078D528 /* Project object */;
+}
